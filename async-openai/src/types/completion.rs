@@ -121,7 +121,7 @@ pub struct CreateCompletionResponse {
     pub id: String,
     pub choices: Vec<Choice>,
     /// The Unix timestamp (in seconds) of when the completion was created.
-    pub created: u32,
+    pub created: u64,
 
     /// The model used for completion.
     pub model: String,
